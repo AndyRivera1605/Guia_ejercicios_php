@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Factura de Compra</title>
+</head>
+<body style="background-color: lightgreen;" text="Black">
+    <center>
+    <h1>Datos de la Compra</h1>
+
+    <form action="Receptor18.php" method="POST">
+
+        <label>Nombre del cliente:</label>
+        <input type="text" name="cliente">
+        <br><br>
+
+        <label>Producto:</label>
+        <input type="text" name="producto">
+        <br><br>
+
+        <label>Cantidad:</label>
+        <input type="number" name="cantidad">
+        <br><br>
+
+        <label>Precio unitario:</label>
+        <input type="number" name="precio">
+        <br><br>
+
+        <input type="submit" value="Generar Factura">
+        ;<input type="reset" value ="Borrar datos">
+
+</form>
+</body>
+</center>
+</html>
